@@ -1,5 +1,7 @@
 # Latex-Billing-Application
 
+# Java and My Sql
+
 ############################
 
 Its a billing Application to manage the farmer purchase and dealer purchase and dealer sales..
