@@ -12,6 +12,8 @@ It generate to tax invoices on these areas and manage the data in these purchase
 
 
 ###########################
+
+
  itext using tax invoice generation is done in the project
  
  1. Farmer purchase tax invoice (itext using pdf generation)
