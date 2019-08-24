@@ -752,10 +752,10 @@ public class farmerpurchase extends javax.swing.JFrame {
             PdfPTable table=new PdfPTable(1);
             table.setWidthPercentage(100);
             PdfPCell cell = new PdfPCell(new Phrase("                                                                                          "));
-            cell.addElement(new Paragraph("                                                               ASIAN LATEX              ", FontFactory.getFont(FontFactory.TIMES_ROMAN,14, Font.BOLD, BaseColor.BLACK)));
-            cell.addElement(new Paragraph("                            MUKKOTTUTHARA P O, PAMPAVALLEY ROAD            ", FontFactory.getFont(FontFactory.COURIER,10, Font.NORMAL , BaseColor.BLACK)));
-            cell.addElement(new Paragraph("                            KOTTAYAM DIST, KERALA, INDIA -686510            ", FontFactory.getFont(FontFactory.COURIER,10, Font.NORMAL, BaseColor.BLACK)));
-            cell.addElement(new Paragraph("                                     Ph: 04828 254012                                     ", FontFactory.getFont(FontFactory.COURIER ,10, Font.NORMAL, BaseColor.BLACK)));
+            cell.addElement(new Paragraph("                                                               Company Name              ", FontFactory.getFont(FontFactory.TIMES_ROMAN,14, Font.BOLD, BaseColor.BLACK)));
+            cell.addElement(new Paragraph("                            Place P O, Palce ROAD            ", FontFactory.getFont(FontFactory.COURIER,10, Font.NORMAL , BaseColor.BLACK)));
+            cell.addElement(new Paragraph("                            Distritc DIST, State, country -pincode            ", FontFactory.getFont(FontFactory.COURIER,10, Font.NORMAL, BaseColor.BLACK)));
+            cell.addElement(new Paragraph("                                     Ph: 00000 00000                                     ", FontFactory.getFont(FontFactory.COURIER ,10, Font.NORMAL, BaseColor.BLACK)));
             cell.setMinimumHeight(60);
             cell.setVerticalAlignment(Element.ALIGN_MIDDLE); 
             table.addCell(cell);
@@ -767,9 +767,9 @@ public class farmerpurchase extends javax.swing.JFrame {
             PdfPCell cell1 = new PdfPCell(new Phrase("State Code", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             cell1.setVerticalAlignment(Element.ALIGN_MIDDLE);
             table.addCell(cell1);
-            cell1 = new PdfPCell(new Phrase("    KERALA", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
+            cell1 = new PdfPCell(new Phrase("    State", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell1);
-            cell1 = new PdfPCell(new Phrase(" 32", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
+            cell1 = new PdfPCell(new Phrase(" 00", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell1);
             cell1 = new PdfPCell(new Phrase());
             cell1.setRowspan(2);
@@ -780,7 +780,7 @@ public class farmerpurchase extends javax.swing.JFrame {
             table.addCell(cell1);
             cell1 = new PdfPCell(new Phrase("GSTIN", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell1);
-            cell1 = new PdfPCell(new Phrase("32AGHPJ7696Q1ZJ", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
+            cell1 = new PdfPCell(new Phrase("XXXXXXXXXAAAAAA", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell1);
             cell1 = new PdfPCell(new Phrase("", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell1);
@@ -801,7 +801,7 @@ public class farmerpurchase extends javax.swing.JFrame {
             table.setWidthPercentage(100);
             PdfPCell cell2 = new PdfPCell(new Phrase("PAN", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell2);
-            cell2 = new PdfPCell(new Phrase("  AGHPJ7696Q ", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
+            cell2 = new PdfPCell(new Phrase("  XXXXXXXXX ", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell2);
             cell2 = new PdfPCell(new Phrase("       PURCHASE INVOICE  ", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell2);
@@ -811,7 +811,7 @@ public class farmerpurchase extends javax.swing.JFrame {
             table.addCell(cell2);
             cell2 = new PdfPCell(new Phrase("RB Lic No:", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell2);
-            cell2 = new PdfPCell(new Phrase("   D 1430936", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
+            cell2 = new PdfPCell(new Phrase("   D XXXXXXX", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell2);
             cell2 = new PdfPCell(new Phrase("   TRIPLICATE FOR SUPPLIER   ", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell2);
@@ -1024,7 +1024,7 @@ public class farmerpurchase extends javax.swing.JFrame {
             table.addCell(cell9);
             cell9 = new PdfPCell(new Phrase(" "+grandtotal, FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             table.addCell(cell9);
-            cell9 = new PdfPCell(new Phrase("      For ASIAN LATEX                  \n\n\n\n     Authorized Signatory", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
+            cell9 = new PdfPCell(new Phrase("      For xxxxx XXXXXXX                  \n\n\n\n     Authorized Signatory", FontFactory.getFont(FontFactory.COURIER ,10, Font.BOLD, BaseColor.BLACK)));
             cell9.setRowspan(2);
             cell9.setColspan(2);
             table.addCell(cell9);
