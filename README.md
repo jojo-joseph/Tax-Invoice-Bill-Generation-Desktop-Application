@@ -1,4 +1,4 @@
-# Latex-Billing-Application
+# Latex-Billing-Application Tax Invoice Generation
 
 # Java and My Sql
 
